@@ -1,0 +1,89 @@
+<html>
+  <head>
+    <!-- CSS -->
+    <link rel="stylesheet" href="index.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CDN Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <main>
+      <section class="container home-container">
+        <h1>Home</h1>
+      </section>
+
+      <section class="container tweet-container">
+        <header class="profile-container">
+          <img
+            class="profile-img"
+            src="images/scrimbalogo.png"
+            alt="Logo of Scrimba"
+          />
+          <textarea
+            name="tweet-input"
+            id="tweet-input"
+            placeholder="What is happening?"
+          ></textarea>
+        </header>
+        <footer class="tweet-footer">
+          <div class="tweet-container_icons">
+            <i class="fa-solid fa-image"></i>
+            <i class="fa-solid fa-face-smile"></i>
+            <i class="fa-solid fa-calendar"></i>
+          </div>
+          <button id="post-button">Post</button>
+        </footer>
+      </section>
+
+      <section class="container feed" id="feed"></section>
+    </main>
+    <script type="module" src="index.js"></script>
+  </body>
+</html>
+
+<!-- <section class="container feed" id="feed">
+        <article class="tweet">
+          <header>
+            <img src="images/musk.png" alt="Profile image of Elon musk" />
+            <div class="tweet-information">
+              <div class="username-content">
+                <p>Username</p>
+                <p>@username</p>
+              </div>
+
+              <p class="tweet-content">
+                This is a sample post on the X clone. The dark mode is looking
+                great!!
+              </p>
+            </div>
+          </header>
+          <footer>
+            <i class="fa-solid fa-comment-dots">
+              <span>45</span>
+            </i>
+            <i class="fa-solid fa-retweet">
+              <span>150</span>
+            </i>
+            <i class="fa-solid fa-heart">
+              <span>45k</span>
+            </i>
+            <i class="fa-solid fa-chart-simple">
+              <span>20.3k</span>
+            </i>
+            <i class="fa-solid fa-share-nodes"></i>
+          </footer>
+        </article>
+      </section> -->
