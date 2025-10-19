@@ -27,16 +27,8 @@
 
       <section class="container tweet-container">
         <header class="profile-container">
-          <img
-            class="profile-img"
-            src="images/scrimbalogo.png"
-            alt="Logo of Scrimba"
-          />
-          <textarea
-            name="tweet-input"
-            id="tweet-input"
-            placeholder="What is happening?"
-          ></textarea>
+          <img class="profile-img" src="images/scrimbalogo.png" alt="Logo of Scrimba" />
+          <textarea name="tweet-input" id="tweet-input" placeholder="What is happening?"></textarea>
         </header>
         <footer class="tweet-footer">
           <div class="tweet-container_icons">
@@ -48,42 +40,18 @@
         </footer>
       </section>
 
-      <section class="container feed" id="feed"></section>
+      <section class="feed" id="feed"></section>
+
+      <div class="overlay hidden-modal">
+        <div class="confirm-inner">
+          <p>Estas seguro de eliminar el tweet?</p>
+          <div class="buttons">
+            <button type="submit" id="accept-button">Aceptar</button>
+            <button type="button" id="cancel-button">Cancelar</button>
+          </div>
+        </div>
+      </div>
     </main>
     <script type="module" src="index.js"></script>
   </body>
 </html>
-
-<!-- <section class="container feed" id="feed">
-        <article class="tweet">
-          <header>
-            <img src="images/musk.png" alt="Profile image of Elon musk" />
-            <div class="tweet-information">
-              <div class="username-content">
-                <p>Username</p>
-                <p>@username</p>
-              </div>
-
-              <p class="tweet-content">
-                This is a sample post on the X clone. The dark mode is looking
-                great!!
-              </p>
-            </div>
-          </header>
-          <footer>
-            <i class="fa-solid fa-comment-dots">
-              <span>45</span>
-            </i>
-            <i class="fa-solid fa-retweet">
-              <span>150</span>
-            </i>
-            <i class="fa-solid fa-heart">
-              <span>45k</span>
-            </i>
-            <i class="fa-solid fa-chart-simple">
-              <span>20.3k</span>
-            </i>
-            <i class="fa-solid fa-share-nodes"></i>
-          </footer>
-        </article>
-      </section> -->

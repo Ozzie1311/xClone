@@ -43,7 +43,7 @@ export const tweetsData = [
     profilePic: `images/flower.png`,
     likes: 10,
     retweets: 3,
-    tweetText: `Are you a coder if you only know HTML?`,
+    tweetText: `Are you a coder if you only know HTML?. Aquí hay que probar colocandole mucho más contenido para ver si se acomoda.`,
     replies: [
       {
         handle: `@StackOverflower ☣️`,
